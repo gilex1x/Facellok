@@ -1,0 +1,265 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0px 0px;
+  
+}
+
+main{
+  margin-bottom: 20px;
+}
+
+.login{
+  background-color: #3c5a98 ;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  height: 80px;
+  border-bottom: solid 1px #133783;
+}
+
+.login-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fffffa;
+}
+
+.login-logo{ 
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.login-logo h4{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: #fffffa;
+}
+
+.login-input{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.login-input input:focus{
+  outline: none;
+}
+
+.login-input li{
+  margin:0px 5px;
+}
+
+.login-input li input{
+  border:solid 1px #1d2a5b;
+  width: 110px;
+  height: 20px;
+}
+.login-content  li button{
+  background-color: #4267b2;
+  border: solid 1px #29487d;
+  color:#fffffa;
+  height: 25px;
+
+  
+}
+
+.login-input-button{
+  align-self: flex-end;
+}
+
+.login-input ul{
+  display: inline-block;
+  align-items: flex;
+}
+
+.login-content label{
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.register-right{
+  display: block;
+  margin: 25px 25px;
+}
+
+.register-text{
+  margin:30px 0px;
+  color: #0e385f;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.register{
+  background-color:  #f9fafc;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+.register-form-title{
+  margin:20px 0px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #333;
+}
+
+.register-form p{
+  font-weight: bold;
+  color: #333;
+}
+
+.register-form input{
+  border-radius: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
+.register-form-text{
+  display: inline-block;
+  width: 377px;
+
+}
+
+.register-form-name input{
+  margin: 5px 0px;
+  height: 35px;
+  border: solid 1px #bdc7d8;
+  justify-content: space-between;
+  width: 180px;
+ 
+}
+
+.register input:focus{
+  outline: none;
+}
+
+.register-form-email input{
+  display: flex;
+  margin: 5px 0px;
+  height: 35px;
+  width: 370px;
+  justify-content: space-between;
+  border: solid 1px #bdc7d8;
+}
+
+.register-form-password input{
+  margin: 5px 0px;
+  height: 35px;
+  width: 370px;
+  border: solid 1px #bdc7d8;
+  margin-right: 10px;
+}
+
+
+
+.register-form-date{
+  margin:10px 0px;
+  color: #90949c;
+  font-weight: bold;
+}
+
+.register-form-date select{
+  height: 30px;
+  outline: none;
+  border-color: #ccd0d5;
+}
+.register-form-date p{
+  color: #786666;
+}
+.register-form-sex{
+  margin:10px 0px;
+  display: inline;
+}
+
+.register-form-sex-option{
+  display: flex;
+}
+
+.register-form-sex div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.register-form-sex input{
+  margin: 0px 0px;
+  
+}
+.register-form-sex p{
+  color: #786666;
+}
+
+.register-form-terms{
+  margin-top: 10px;
+  font-size: 11px;
+  color: #786666;
+}
+
+.register-form-confirm{
+  margin: 25px 0px;
+  border:solid 1px #3b6e22;
+  height: 35px;
+  width: 150px;
+  justify-content: center;
+  border-radius: 5px;
+}
+.register-form-confirm button{
+  margin:0px 0px;
+  background-color: #6db35a;
+  border:solid 1px #5f994b;
+  height: 35px;
+  width: 150px;
+  color: #ffffff; 
+  font-weight: bold;
+}
+
+.register-form-confirm button:hover{
+  background-color: #75b760;
+  cursor: pointer;
+}
+
+.others {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 1300px;
+  height: 90px;
+}
+
+.links{
+  display: block;
+  margin :0 auto;
+  width: 980px;
+
+}
+
+.links-language{
+  margin: 15px 0px;
+  justify-content: flex-start;
+  text-decoration: none;  
+  border-bottom: solid 1px #cacccf; 
+  padding: 10px 0px;
+}
+
+.links-language a{
+  text-decoration: none;
+  margin: 15px 5px;
+  font-size: 12px;
+  color: #3858b3
+}
+
+.links-apps{
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+.links-apps a{
+  color: #3858b3;
+  text-decoration: none;
+  margin: 15px 10px;
+  font-size: 12px;
+  padding-bottom:30px ;
+}
